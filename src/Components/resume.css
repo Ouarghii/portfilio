@@ -1,0 +1,42 @@
+.download-cv-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+  .download-cv-button__top {
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .download-cv-button__bottom {
+    position: relative;
+  }
+  
+  .download-cv-button__inner {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+  }
+ 
+  .download-cv-button__top:hover{
+    transform: scale(105%);
+  }
+  @media only screen and (max-width: 1208px) {
+    .imggg {
+      height: 40%;
+      width: 40%;
+    }
+  }

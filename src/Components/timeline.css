@@ -1,0 +1,228 @@
+.vertical-line {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #dcd7d7 ;
+    margin-bottom: 400px;
+    position: relative;
+  }
+  .circle1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #dcd7d7 ;
+    margin-bottom: 400px;
+    position: relative;
+  }
+  .circlen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:  #dcd7d7 ;
+    margin-bottom: 400px;
+    position: relative;
+  }
+  
+  .circle:before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1px;
+    height: 420px;
+    background-color: #dcd7d7;
+  }
+  .circle1:before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1px;
+    height: 350px;
+    background-color: #dcd7d7;
+  }
+  .circlen:before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1px;
+    height: -500px;
+    background-color: #dcd7d7;
+  }
+  
+  .circle:after {
+    content: '';
+    position: absolute;
+    bottom: -200px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1px;
+    height: 350px;
+    background-color:  #dcd7d7;
+  }
+  .circle1:after {
+    content: '';
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1px;
+    height: 0;
+    background-color:  #dcd7d7;
+  }
+  .circlen:after {
+    content: '';
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1px;
+    height: 0;
+    background-color:  #dcd7d7;
+  }
+  .line-left {
+
+    width: 400px;
+    height: 1px;
+    background-color:  #dcd7d7;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+  }
+  
+  .line-right {
+    width: 400px;
+    height: 1px;
+    background-color:  #dcd7d7;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+  }
+ 
+  .rectangle1 {
+    background-color: rgba(0, 0, 0, 0.25);
+    height: 450px;
+    width:450px;
+    position: absolute;
+    top: 50%;
+    left: -450px; /* adjust the value to move the rectangle horizontally */
+    transform: translateY(-50%);
+    border-radius: 8px;
+  }
+  .rectangle {
+    background-color: rgba(0, 0, 0, 0.25);
+    height: 450px;
+    width: 450px;
+    position: absolute;
+    top: 50%;
+    right: -450px; /* adjust the value to move the rectangle horizontally */
+    transform: translateY(-50%);
+    border-radius: 8px;
+  }
+  .rectangle img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transition: transform 0.6s ease-out;
+    transform-style: preserve-3d;
+  }
+  .rectangle1 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transition: transform 0.6s ease-out;
+    transform-style: preserve-3d;
+  }
+  .rectangle:hover img {
+    transform: rotateY(-180deg);
+  }
+  .rectangle1:hover img {
+    transform: rotateY(-180deg);
+  }
+  .rectangle:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    transition: opacity 0.6s ease-out;
+    opacity: 0;
+    transform: rotateY(180deg);
+  }
+  
+  .rectangle:hover:before {
+    opacity: 1;
+  }
+  .rectangle1:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    transition: opacity 0.6s ease-out;
+    opacity: 0;
+    transform: rotateY(180deg);
+  }
+  
+  .rectangle1:hover:before {
+    opacity: 1;
+  }
+  @media only screen and (max-width: 1268px) {
+    .vertical-line {
+      margin-left: 20px;
+    }
+    .circle,
+    .circle1,
+    .circlen {
+      width: 50px;
+      height: 50px;
+    }
+    .line-left,
+    .line-right {
+      top: 25px;
+      width: 105px;
+    }
+    .rectangle,
+    .rectangle1 {
+      width: 200px;
+      height: 200px;
+    }
+    .description {
+      padding: 5px;
+      font-size: 12px;
+    }
+    .rectangle .img {
+      width:80%;
+      height:80%;
+    }
+  }
