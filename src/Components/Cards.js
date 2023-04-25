@@ -31,7 +31,7 @@ const Cards = () => {
   ];
 
   return (
-    <div className="fxit h-screen w-full bg-gradient-to-b from-black via-black to-gray-800">
+    <div name='certificats' className="fxit h-screen w-full bg-gradient-to-b from-black via-black to-gray-800">
       <div
         className="all mx-auto flex flex-col justify-center w-full h-full"
         style={{ fontFamily: "Source Code Pro" }}

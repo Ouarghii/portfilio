@@ -9,6 +9,7 @@ import About from './Components/About';
 import Cards from './Components/Cards';
 import Resume from './Components/Resume';
 import Timeline from './Components/Timeline';
+import Footer from './Components/Footer';
 
 
 
@@ -17,12 +18,13 @@ function App() {
   return (
     <div className="App">
        <NavBar/>
-       <Home />
-       <Social/>
-       <About />
-       <Resume />
-       <Cards />
-       <Timeline />
+       <Home id='Home'/>
+       <Social />
+       <About id='about' />
+       <Resume id='resume' />
+       <Cards id='cetrificats'/>
+       <Timeline id='activities'/>
+       <Footer />
     </div>
   );
 }

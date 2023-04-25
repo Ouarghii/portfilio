@@ -22,7 +22,7 @@ const Home = () => {
               />
             </span>
           </h2>
-          <p className='max-w-screen-lg text-gray-500 py-4 max-w-md text-lg ' style={{fontSize:'25px',marginBottom:'10px',lineHeight: '1.5',marginLeft:'80px',marginTop:'70px'}}>
+          <p className='max-w-screen-lg text-gray-500 py-4 max-w-md text-lg ' style={{fontSize:'20px',marginBottom:'10px',lineHeight: '1.2',marginLeft:'80px',marginTop:'40px'}}>
             <span style={{color:"yellow"}}>{"<p>"}</span>
             I have always been passionate about technology and its ability to make people's lives easier. As a software engineering student, I have been able to turn that passion into a career path, where I can use my skills to create innovative and impactful software solutions. On this website, you'll find examples of my work and learn more about my experience and skills. I'm excited to share my journey with you and look forward to connecting with you soon!{' '}
             <span style={{color:"yellow"}}>{"</p>"}</span>

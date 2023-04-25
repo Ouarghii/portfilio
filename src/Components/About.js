@@ -8,11 +8,11 @@ import {DiEclipse, DiJava} from 'react-icons/di'
 
 const About = () => {
   return (
-    <div  name="about" className='txt w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white' >
+    <div  name="about" className='txt w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white'>
         {/* <p><span style={{color:'blue'}}>class </span> <span style={{color:"yellow"}}>{"Raslen Warghui { "} </span></p> */}
-        <div className=' p-4 mx-auto flex flex-col justify-center w-full h-full' style={{fontFamily: 'Source Code Pro'}}>
-            <div className='pb-8' >
-                <p className='text-4xl font-bold inline border-b-4 border-gray-500' style={{marginLeft:'70px'}}>{"About/>"}</p>
+        <div className='hhh p-4 mx-auto flex flex-col justify-center w-full h-full  border-gray-500 bg-gradient-to-b from-gray-800 to-black' style={{fontFamily: 'Source Code Pro'}}>
+            <div className='pb-8' style={{marginTop:'170px'}}>
+                <p className='text-4xl font-bold inline border-b-4 ' style={{marginLeft:'70px'}}>{"About/>"}</p>
             </div >
             <div style={{ display: 'flex', justifyContent: 'center' }}>
             <p className='txxt text-xl mt-20'>
@@ -34,10 +34,10 @@ const About = () => {
                 <p><span style={{color:'gray'}}>.........<span style={{color:'white'}}>{"{ "}</span><span style={{color:'white'}}>'2021-now' : National School of Computer Science '<span style={{color:'white'}}>{"} ,"}</span></span></span></p>
                 <p style={{color:'gray'}}>....<span style={{color:'white'}}>{"]"}</span></p>
                 <span style={{color:"white"}}>{" }"}</span>
-                <span style={{color:"yellow"}}><span style={{color:'gray'}}>....</span><span></span>hobbies & interessant<span style={{color:"white"}}>{"() {"}</span></span>
+                <span style={{color:"yellow"}}><span style={{color:'gray'}}>....</span><span></span>Hobbies & Interesting<span style={{color:"white"}}>{"() {"}</span></span>
                 <p style={{color:'violet'}}><span style={{color:'gray'}}>......</span>return <span style={{color:'white'}}>{"["}</span></p>
                 <p>.........{"{"} Hobbies :<span style={{color:'white'}}>'Football',' Gaming : League of legends','Gaming:Valorant','Gaming:FIFA/PES','Coding','Volleyball'...</span>{"}"}</p>
-                <p>.........{"{"} Interessant :<span style={{color:'white'}}>'Club Africain',' FC Barcelone','One Piece','Netflix','Competitions','Self Formation'...</span>{"}"}</p>
+                <p>.........{"{"} Interesting :<span style={{color:'white'}}>'Club Africain',' FC Barcelone','One Piece','Netflix','Competitions','Self Formation'...</span>{"}"}</p>
                 <p style={{color:'gray'}}>....<span style={{color:'white'}}>{"]"}</span></p>
                 <span style={{color:"white"}}>{"..}"}<br/><span style={{color:'yellow'}}>{"}"}</span></span>
                    
@@ -112,7 +112,7 @@ const About = () => {
         <FaNpm className="icon" />
       </div>
     </div>
-    <div>
+    <div className='bg-gradient-to-b from-gray-900 to-gray-700' style={{height:'120%'}}>
     <h1 className="project-heading " style={{textAlign:'center',justifyContent:'center',margin:'auto',marginBottom:'50px'}}>
           <span style={{color:'violet',fontWeight:'1000'}}><strong>Tools</strong></span> I use
         </h1>

@@ -7,7 +7,7 @@ import img4 from '../assets/robotique.jpg'
 import img5 from '../assets/chaabola.jpg'
 const Timeline = () => {
   return (
-    <div className='h-screen w-full bg-gradient-to-b from-gray-800 to-black' style={{fontFamily: 'Source Code Pro',height:'120%'}}>
+    <div name="activities" className='h-screen w-full bg-gradient-to-b from-gray-800 to-black' style={{fontFamily: 'Source Code Pro',height:'120%'}}>
           <div
         
         style={{ fontFamily: "Source Code Pro" }}
@@ -42,7 +42,7 @@ const Timeline = () => {
         <div className='rectangle1' style={{ width: '500px', height: '400px', padding: '10px' }}>
               <img src={img2} alt='' style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               <div className='description'>
-    <p style={{color:'white',alignItems:'center',margin:'auto',textAlign:'center',marginTop:'80px',fontSize:'20px'}}>Activity 1 description</p>
+    <p style={{color:'white',alignItems:'center',margin:'auto',textAlign:'center',marginTop:'80px',fontSize:'20px'}}>Super Cup with A.R.E </p>
   </div>
             </div>
         </div>
@@ -52,7 +52,7 @@ const Timeline = () => {
         <div className='rectangle' style={{ width: '500px', height: '400px', padding: '10px' }}>
               <img src={img3} alt='' style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               <div className='description'>
-    <p style={{color:'white',alignItems:'center',margin:'auto',textAlign:'center',marginTop:'80px',fontSize:'20px'}}>Activity 1 description</p>
+    <p style={{color:'white',alignItems:'center',margin:'auto',textAlign:'center',marginTop:'80px',fontSize:'20px'}}>Active member in IEEE ENSI</p>
   </div>
             </div>
         </div>
@@ -64,7 +64,7 @@ const Timeline = () => {
         <div className='rectangle1' style={{ width: '500px', height: '400px', padding: '10px' }}>
               <img src={img4} alt='' style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               <div className='description'>
-    <p style={{color:'white',alignItems:'center',margin:'auto',textAlign:'center',marginTop:'80px',fontSize:'20px'}}></p>
+    <p style={{color:'white',alignItems:'center',margin:'auto',textAlign:'center',marginTop:'80px',fontSize:'20px'}}>Active Member with A.R.E</p>
   </div>
             </div>
         </div>
@@ -74,7 +74,7 @@ const Timeline = () => {
         <div className='rectangle' style={{ width: '500px', height: '400px', padding: '10px' }}>
               <img src={img5} alt='' style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               <div className='description'>
-    <p style={{color:'white',alignItems:'center',margin:'auto',textAlign:'center',marginTop:'80px',fontSize:'20px'}}>Activity 1 description</p>
+    <p style={{color:'white',alignItems:'center',margin:'auto',textAlign:'center',marginTop:'80px',fontSize:'20px'}}>Chaabola Team in EPC2.0 Competition with Mouhamed Mezzi and fedi Kouki</p>
   </div>
             </div>
         </div>
